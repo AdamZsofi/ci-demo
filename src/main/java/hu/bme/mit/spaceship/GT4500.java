@@ -88,6 +88,7 @@ public class GT4500 implements SpaceShip {
           secondarySuccess = secondaryTorpedoStore.fire(1);
         }
 
+        // success means at least one store could fire successfully
         firingSuccess = primarySuccess || secondarySuccess;
         break;
     }
